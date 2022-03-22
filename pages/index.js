@@ -11,8 +11,8 @@ export default function Home() {
 					<h5 className="font-bold text-dark-green mb-3">The new way to work online</h5>
 					<h1 className="text-dark font-bold text-4xl mb-10 lg:text-5xl">
 						Get the important <br /> work done{" "}
-						<span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-primary 00 relative inline-block">
-							<span class="relative text-white">faster.</span>
+						<span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-primary 00 relative inline-block">
+							<span className="relative text-white">faster.</span>
 						</span>
 					</h1>
 					<p className="text-dark leading-7 mb-5">With Quickly, you can get more productive work done in far less time than ever before.</p>
@@ -167,7 +167,7 @@ export default function Home() {
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 					<div className="bg-white rounded-md px-5 py-4 flex flex-col justify-between">
 						<div>
-							<h4 className="text-dark-green text-4xl font-bold mb-1">"</h4>
+							<h4 className="text-dark-green text-4xl font-bold mb-1">&quot;</h4>
 							<p className="text-dark text-lg mb-10">
 								I love the flexibility of the product, we’ve been able to integrate with all the other platforms we use in product.
 							</p>
@@ -179,7 +179,7 @@ export default function Home() {
 					</div>
 					<div className="bg-white rounded-md px-5 py-4 flex flex-col justify-between">
 						<div>
-							<h4 className="text-dark-green text-4xl font-bold mb-1">"</h4>
+							<h4 className="text-dark-green text-4xl font-bold mb-1">&quot;</h4>
 							<p className="text-dark text-lg mb-10">
 								Thanks so much to the team at Quickly for building something truly fun to use, and excellently equipt
 							</p>
@@ -191,7 +191,7 @@ export default function Home() {
 					</div>
 					<div className="bg-white rounded-md px-5 py-4 flex flex-col justify-between">
 						<div>
-							<h4 className="text-dark-green text-4xl font-bold mb-1">"</h4>
+							<h4 className="text-dark-green text-4xl font-bold mb-1">&quot;</h4>
 							<p className="text-dark text-lg mb-10">
 								This is the first time that the entire team from design to management has been in love with a tool.
 							</p>
