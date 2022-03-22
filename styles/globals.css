@@ -1,16 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer base {
+	@font-face {
+		font-family: "plus-jakarta-sans";
+		font-weight: 400;
+		font-style: normal;
+		src: url("/fonts/Plus-Jakarta/PlusJakartaSans-Regular.woff2") format("woff2");
+	}
+	@font-face {
+		font-family: "plus-jakarta-sans";
+		font-weight: 500;
+		font-style: normal;
+		src: url("/fonts/Plus-Jakarta/PlusJakartaSans-Medium.woff2") format("woff2");
+	}
+	@font-face {
+		font-family: "plus-jakarta-sans";
+		font-weight: 600;
+		font-style: normal;
+		src: url("/fonts/Plus-Jakarta/PlusJakartaSans-SemiBold.woff2") format("woff2");
+	}
+	@font-face {
+		font-family: "plus-jakarta-sans";
+		font-weight: 700;
+		font-style: normal;
+		src: url("/fonts/Plus-Jakarta/PlusJakartaSans-Bold.woff2") format("woff2");
+	}
 }
